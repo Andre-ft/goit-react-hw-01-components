@@ -1,0 +1,81 @@
+.profile {
+  width: 300px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.15));
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+.description {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  display: block;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #424242f5;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+.tag {
+  color: #424242f5;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.location {
+  color: #424242f5;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.stats > li:not(:last-child) {
+  border-right: 1px solid #d1d0d0;
+}
+
+.label {
+  color: #424242f5;
+}
+
+.quantity {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #424242f5;
+}

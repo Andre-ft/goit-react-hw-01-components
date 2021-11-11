@@ -1,0 +1,53 @@
+.transactionHistory {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px 3px #ccc;
+}
+
+.itemType {
+  width: 145px;
+  padding-left: 105px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.itemAmount {
+  width: 250px;
+}
+
+.itemCurrency {
+  width: 250px;
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(238, 238, 238);
+}
+
+thead {
+  background-color: rgb(2, 187, 215);
+  color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th:not(:nth-child(3n)) {
+  border-right: 1px solid white;
+}
+
+td:not(:nth-child(3n)) {
+  border-right: 1px solid rgba(190, 190, 190, 0.76);
+}
+
+th,
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+tbody {
+  color: rgb(128, 128, 128);
+}
