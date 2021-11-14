@@ -5,7 +5,9 @@ function getColor() {
     const color = Math.round(Math.random() * 255);
     colorArray.push(color);
   }
-  return colorArray;
+  // return colorArray;
+  return `rgb(${colorArray})`;
 }
 
 export default getColor;
+// export default `rgb(${getColor()})`

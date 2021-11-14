@@ -9,13 +9,14 @@ function Statistics({ title, stats }) {
 
       <ul className={s.statList}>
         {stats.map((elem, i, array) => {
-          const color = getColor();
+          // const color = getColor();
           return (
             <li
               className={s.item}
               key={elem.id}
               style={{
-                backgroundColor: `rgb(${color})`,
+                // backgroundColor: `rgb(${color})`,
+                backgroundColor: `${getColor()}`,
                 width: 100 / array.length + '%',
               }}
             >
